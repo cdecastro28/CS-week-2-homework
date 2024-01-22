@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #bab5d4;
+}
+
+nav {
+  background-color: #c9acac;
+}
+
+main {
+  background-color: #aaa9f4;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #b04040;
+}
+
+/* Style the h1 tag */
+h1 {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  color: #009688;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Updated styles for the navigation */
+nav {
+  display: inline-block;
+  width: 90%;
+  display: flex; /* Adding flex */
+  justify-content: space-between; /* Adding flex */
+  align-items: center; /* Adding flex */
+}
+
+nav ul {
+  display: flex; /* Adding flex to the ul */
+  list-style: none; /* Remove default list styles */
+}
+
+nav ul li {
+  margin-right: 30px; /* Adding margin between list items */
+}
+
+nav img {
+  width: 10%;
+}
+
